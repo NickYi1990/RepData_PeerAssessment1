@@ -71,6 +71,22 @@ MakePlot_1(Activity_Pre, "")
 
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)\
 
+```r
+mean(steps_sum$`sum(steps, na.rm = TRUE)`, na.rm = T)
+```
+
+```
+## [1] 9354.23
+```
+
+```r
+median(steps_sum$`sum(steps, na.rm = TRUE)`, na.rm = T)
+```
+
+```
+## [1] 10395
+```
+
 
 ## What is the average daily activity pattern?
 

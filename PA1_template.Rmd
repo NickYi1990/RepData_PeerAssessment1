@@ -33,6 +33,8 @@ MakePlot_1 <- function(dataset, suffix_char, ...){
   assign(paste("steps_median", suffix_char, sep = ""),summarise(dataset, median(steps,na.rm = TRUE)), pos = ".GlobalEnv")
 }
 MakePlot_1(Activity_Pre, "")
+mean(steps_sum$`sum(steps, na.rm = TRUE)`, na.rm = T)
+median(steps_sum$`sum(steps, na.rm = TRUE)`, na.rm = T)
 ```
 
 
