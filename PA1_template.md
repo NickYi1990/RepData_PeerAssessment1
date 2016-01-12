@@ -281,3 +281,9 @@ dev.off()
 ##                 2
 ```
 
+```r
+xyplot(step_means~interval | weekOrweeken, data = Activity_Impute_week_mean, type='l', layout = c(1,2),ylab = "Number of steps")
+```
+
+![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)\
+

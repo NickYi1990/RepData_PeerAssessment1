@@ -102,5 +102,6 @@ Activity_Impute_week_mean <- mutate(Activity_Impute_week, step_means = mean(step
 png(filename = 'plot.png',width = 480, height = 480, bg = rgb(0,0,0,alpha = 0))
 xyplot(step_means~interval | weekOrweeken, data = Activity_Impute_week_mean, type='l', layout = c(1,2),ylab = "Number of steps")
 dev.off()
+xyplot(step_means~interval | weekOrweeken, data = Activity_Impute_week_mean, type='l', layout = c(1,2),ylab = "Number of steps")
 ```
 
